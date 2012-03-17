@@ -1,0 +1,19 @@
+Example
+-------
+
+**Input file (svn_dump.txt):**
+
+	/Project1/trunk/application/classes/controller/admin/products.php
+	/Project1/trunk/application/classes/model/product.php
+	/Project1/trunk/application/classes/model/product/file.php
+	/Project1/trunk/application/views/admin/order_details.php
+	/Project1/trunk/application/views/admin/orders.php
+	/Project1/trunk/application/views/admin/products.php
+	/Project1/trunk/application/views/admin/products/edit.php
+	/Project1/trunk/application/views/admin/products/products.php
+	/Project1/trunk/application/views/products/one.php
+	/Project1/trunk/application/views/templates/admin/header.php
+	/Project1/trunk/application/views/templates/default/header.php
+
+**Script call**
+.\svn_dumper.ps1 -importDir "C:\xampp\htdocs\Project1\" -replaceDirPart "/Project1/trunk/"
